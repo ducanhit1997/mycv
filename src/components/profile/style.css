@@ -141,6 +141,7 @@
   .main-timeline{
     overflow: hidden;
     position: relative;
+    padding: 20px;
 }
 .main-timeline:before{
     content: "";
@@ -213,6 +214,7 @@
     font-size: 14px;
     color: #6f6f6f;
     margin: 0 0 5px 0;
+    font-weight: 500;
 }
 .main-timeline .timeline:nth-child(2n){
     padding: 10px 100px 10px 60px;
