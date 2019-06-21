@@ -2,4 +2,14 @@
     margin-top: 10px;
     text-align: center;
 }
- 
+.ant-layout-sider-children {
+    background-color: aliceblue;
+} 
+.ant-timeline{
+    margin: 30px;
+}
+.title{
+    text-indent: 13px;
+    color: #1890ff;
+    font-weight: bold;
+}

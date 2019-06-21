@@ -6,8 +6,13 @@ import Introduce from './components/introduce/Introduce';
 function App() {
   return (
     <div className="App">
-        <div className="grid col-pc-1-5"><Profile /></div>
-        <div className="grid col-pc-5-5"><Introduce /></div>
+      <div className="grid col-pc-1-5"><Profile /></div>
+      <div className="grid col-pc-5-5">
+        <div className="introduce">
+          <Introduce />
+
+        </div>
+      </div>
     </div>
   );
 }

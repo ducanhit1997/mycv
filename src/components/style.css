@@ -1,0 +1,34 @@
+@media screen and (min-width: 1024px){
+    .col-pc-1-5{
+      width: 30%;
+      text-align: center;
+      height: 100vh;
+    }
+    .col-pc-5-5{
+      width: 70%;
+      height: 100vh;
+    }
+  } 
+   @media screen and (min-width: 1080px){
+    .col-pc-1-5{
+      width: 20%;
+      text-align: center;
+    }
+    .col-pc-5-5{
+      width: 80%;
+    }
+  }
+  @media screen and (max-width: 800px){
+    .col-pc-1-5{
+      width: 100%;
+      text-align: center;
+    }
+    .col-pc-5-5{
+      width: 100%;
+    }
+  }
+  .grid {
+    border-right: 2px solid #1890ff;
+    float: left;
+  }
+  

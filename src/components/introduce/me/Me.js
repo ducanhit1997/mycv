@@ -15,8 +15,7 @@ class Me extends Component {
             <div className="about-me">
                 <div>
                     <h3 className="profile-title"><Icon type="user" /><span>Sơ lược bản thân</span></h3>
-                    <p className="soluoc">Tôi tên là Phan Đức Anh, 22 tuổi, hiện đang là sinh viên năm 4 trường Đại học Nông Lâm TP.HCM, ngành công nghệ thông tin. Mục tiêu của tôi là trở thành
-                lập trình viên Front-end, mảng Reactjs. Đây là CV tự tôi thiết kế và viết, sử dụng một số framework UI của React.</p>
+                    <p className="soluoc">Tôi tên là Phan Đức Anh, 22 tuổi, hiện đang là sinh viên năm 4 trường Đại học Nông Lâm TP.HCM, ngành công nghệ thông tin.</p>
                 </div>
                 <div className="advantage">
                     <h3 className="advantage-title"><Icon type="like" /><span>Ưu điểm</span></h3>
@@ -44,7 +43,7 @@ class Me extends Component {
                     </div>
                 </div>
                 <div className="time-line">
-                    <h3 className="advantage-title"><Icon type="heart" /><span>Học vấn</span></h3>
+                    <h3 className="advantage-title"><Icon type="book" /><span>Học vấn</span></h3>
                     <div>
                         <Steps size="small" current={1}>
                             <Step title="THPT Nguyễn Thái Bình" description="2012-2015" />
