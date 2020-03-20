@@ -13,7 +13,7 @@ class Me extends Component {
         return (
             <div className="about-me">
                 <div>
-                    <h3 className="profile-title"><Icon type="user" /><span>Profile yourself</span></h3>
+                    <h3 className="profile-title"><Icon type="user" /><span>Profile</span></h3>
                     <p className="soluoc">My name is <strong>Phan Duc Anh</strong>, I'm <strong>22 years old</strong>. I graduated from Ho Chi Minh City University of Agriculture and Forestry, majoring in information technology. Currently, I'm working at <strong>Evizi Company</strong>.</p>
                 </div>
                 <div className="advantage">
@@ -34,10 +34,10 @@ class Me extends Component {
                         </div>
                     </div>
                     <div className="defect">
-                        <h3 className="advantage-title"><Icon type="heart" /><span>Hobby</span></h3>
+                        <h3 className="advantage-title"><Icon type="heart" /><span>Hobbies</span></h3>
                         <div>
                             <li><Icon type="check" /><span>Read books, learn new technology.</span></li>
-                            <li><Icon type="check" /><span>Loves football, likes to relax with roommates on weekends.</span></li>
+                            <li><Icon type="check" /><span>Love football, likes to relax with roommates on weekends.</span></li>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ class Me extends Component {
                         <Steps size="small" current={1} direction="vertical">
                             <Step title="Nguyen Thai Binh High School" description="2012-2015" />
                             <Step status="finish" title="Ho Chi Minh City University of Agriculture and Forestry" icon={<Icon type="solution"/>} description="2015-2019" />
-                            <Step status="finish" title="Working at outsourcing software company Fujinet" icon={<Icon type="home" />} description="07/2019" />
+                            <Step status="finish" title="Working at Fujinet outsourcing software company" icon={<Icon type="home" />} description="07/2019" />
                             <Step status="finish" title="Graduated from Ho Chi Minh City University of Agriculture and Forestry" icon={<Icon type="home" />} description="02/2020" />
                             <Step status="process" title="Working at software company Evizi" icon={<Icon type="loading" />} description="03/2020" />
                         </Steps>

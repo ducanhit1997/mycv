@@ -18,14 +18,14 @@ class Project extends Component {
                 <div className="description">
                 This is a sales project made on the <strong>JSP-Servlet platform</strong>, with all the necessary functions of a <strong>Frontend and Backend</strong> sales website. My team consists of 4 members and I am the leader who has <strong>successfully</strong> completed and reported a score of 9.
                 </div>
-                <Icon type="arrow-right" /> <strong>Link project:</strong> <a href="http://2018group22.azurewebsites.net" rel="noopener noreferrer" target="_blank">http://2018group22.azurewebsites.net </a>
+                <Icon type="arrow-right" /> <strong>Link github:</strong> <a href="https://github.com/ducanhit1997/Jsp-Servlet" rel="noopener noreferrer" target="_blank">https://github.com/ducanhit1997/Jsp-Servlet </a>
             </Timeline.Item>
             <Timeline.Item color="#1890ff">
                 <div className="title">[HKI/2018-2019] ReactJS </div>
                 <div className="description">
                 E-commerce car rental project, using <strong>Backend .NET Core</strong> technology and <strong>Frontend ReactJS</strong>, I take responsibility for handling the Frontend side. This is my first time interacting with React, applying <strong>React UI</strong> (<strong>Ant Design</strong>) frameworks to build interfaces, and collaborate with the Backend via the <strong>Restful API</strong>.
                 </div>
-                <Icon type="arrow-right"/> <strong>Link github:</strong> <a href="https://github.com/lephong2017/ThuongMaiDienTu-Frontend" rel="noopener noreferrer" target="_blank">https://github.com/lephong2017/ThuongMaiDienTu-Frontend</a>
+                <Icon type="arrow-right"/> <strong>Link github:</strong> <a href="https://github.com/ducanhit1997/Frontend-ThueXe" rel="noopener noreferrer" target="_blank">https://github.com/ducanhit1997/Frontend-ThueXe</a>
             </Timeline.Item>
             <Timeline.Item color="#1890ff">
                 <div className="title">[HKII/2018-2019] Spring MVC </div>

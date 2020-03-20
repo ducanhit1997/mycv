@@ -86,6 +86,10 @@ class introduce extends Component {
         //Giờ sau 
         //nut nao hiên tính năng nào giờ nút giới thiệu bản thân render ra cái component Me
     }
+
+    forceUpdate = () => {
+      window.location.href = "/CV/CV_PhanDucAnh.pdf";
+    }
     render() {
         const { about, skill, project, } = this.state;
         return (
@@ -94,7 +98,7 @@ class introduce extends Component {
                     <Radio.Group defaultValue="about" buttonStyle="solid" onChange={this.selectOption}>
                         <Radio.Button value="about">Introduce yourself</Radio.Button>
                         <Radio.Button value="project">My project</Radio.Button>
-                        <Link to="/CV/CV_PhanDucAnh.pdf"><Radio.Button value="cv">Download my CV</Radio.Button></Link>
+                        <Link onClick={this.forceUpdate} to="/CV/CV_PhanDucAnh.pdf"><Radio.Button value="cv">Download my CV</Radio.Button></Link>
                     </Radio.Group>
                 </div>
                 <div>
