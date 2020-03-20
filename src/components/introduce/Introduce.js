@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Radio } from 'antd';
 import './style.css';
 import AboutMe from './me/Me';
-import Skill from './skill/Skill';
+// import Skill from './skill/Skill';
 import Project from './project/Project';
 class introduce extends Component {
     state={
@@ -28,7 +28,7 @@ class introduce extends Component {
     //nut nao hiên tính năng nào giờ nút giới thiệu bản thân render ra cái component Me
 }
 render() {
-    const {about, skill, project, cv} = this.state;
+    const {about, skill, project, } = this.state;
     return (
         <div>
             <div className="menu-introduce">

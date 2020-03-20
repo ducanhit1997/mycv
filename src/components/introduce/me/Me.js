@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import { Icon, Steps, Popover } from 'antd';
-import Button from '@material-ui/core/Button';
+import { Icon, Steps,  } from 'antd';
 import './../style.css';
 const Step = Steps.Step;
-const customDot = (dot, { status, index }) => (
-    <Popover content={<span>step {index} status: {status}</span>}>
-        {dot}
-    </Popover>
-);
+// const customDot = (dot, { status, index }) => (
+//     <Popover content={<span>step {index} status: {status}</span>}>
+//         {dot}
+//     </Popover>
+// );
 
 class Me extends Component {
     render() {
